@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/registration_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:scrollbars="none"
+        android:background="#ffffff"
+        android:divider="#ffffff"
+        android:dividerHeight="10dp"/>
+    <LinearLayout
+        android:id="@+id/registration_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/event_false"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:textSize="15sp"
+            android:textColor="#767676"
+            android:text="小主别着急"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:textSize="15sp"
+            android:textColor="#06aaff"
+            android:text="精彩活动正在路上..."/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+
+    <TextView
+        android:id="@+id/tv_smart"
+        style="@style/order_style"
+        android:text="智能排序" />
+
+    <View
+        android:id="@+id/vv1"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@+id/tv_smart"
+        android:background="#d0d0d0" />
+
+    <TextView
+        android:id="@+id/order_data"
+        style="@style/order_style"
+        android:layout_below="@+id/vv1"
+        android:text="按时间排序" />
+
+    <View
+        android:id="@+id/vv2"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@+id/order_data"
+        android:background="#d0d0d0" />
+
+    <TextView
+        android:id="@+id/order_hot"
+        style="@style/order_style"
+        android:layout_below="@+id/vv2"
+        android:text="按热度排序" />
+
+    <View
+        android:id="@+id/vv3"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@+id/order_hot"
+        android:background="#d0d0d0" />
+</RelativeLayout>
